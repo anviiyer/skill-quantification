@@ -2,18 +2,18 @@
 
 **Are FPI equity traders skilled, or just lucky?**
 
-This project applies a four-test statistical framework — originally developed for opinion trading platforms — to real-world Foreign Portfolio Investment (FPI) equity trading data from SEBI, to empirically test whether trading success reflects skill or chance.
+This project applies a four-test statistical framework - originally developed for opinion trading platforms - to real-world Foreign Portfolio Investment (FPI) equity trading data from SEBI, to empirically test whether trading success reflects skill or chance.
 
 ## Overview
 
-The question of whether success in trading is driven by skill or chance carries real theoretical and regulatory weight. This project adapts the methodology of Bagchi et al. (2025) — originally applied to the Probo opinion trading platform — to SEBI's trade-wise FPI equity data for **January–March 2025**.
+The question of whether success in trading is driven by skill or chance carries real theoretical and regulatory weight. This project adapts the methodology of Bagchi et al. (2025) - originally applied to the Probo opinion trading platform - to SEBI's trade-wise FPI equity data for **January-March 2025**.
 
 Four statistical tests are used to probe for a skill signal:
 
-1. **Skill Dilution Test** — randomly flips trade outcomes and checks whether performance degrades, which would indicate genuine skill in the original outcomes.
-2. **Persistence Test** — checks whether a user's performance in one month correlates with their performance the next (Spearman correlation).
-3. **Learning Test** — checks whether win rate improves as users accumulate more completed trades.
-4. **Skill Gradient Test (OpTraS Scoring System)** — a composite score combining performance, strategy, activity, and foresight, used to compare consistent vs. inconsistent traders.
+1. **Skill Dilution Test** - randomly flips trade outcomes and checks whether performance degrades, which would indicate genuine skill in the original outcomes.
+2. **Persistence Test** - checks whether a user's performance in one month correlates with their performance the next (Spearman correlation).
+3. **Learning Test** - checks whether win rate improves as users accumulate more completed trades.
+4. **Skill Gradient Test (OpTraS Scoring System)** - a composite score combining performance, strategy, activity, and foresight, used to compare consistent vs. inconsistent traders.
 
 ## Success Metrics
 
