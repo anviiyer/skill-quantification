@@ -42,15 +42,15 @@ Users are classified as **Consistent** (≥ 20 trades in any single calendar wee
 
 ## Key Results
 
-- **Skill Dilution Test:** Baseline mean win rate ≈ 0.42 (below 0.5, reflecting a falling January 2025 market). As outcomes are randomly flipped, WR rises monotonically toward ~0.58 — direction is inverted relative to the original paper (which had baseline WR > 0.5), but the ~0.16 gap still confirms outcomes are systematically non-random.
-- **Persistence Test:** Tested via one-sided Spearman correlation of win rate across consecutive months (Jan–Feb, Feb–Mar 2025), plus a 3-month pairwise correlation heatmap.
+- **Skill Dilution Test:** Baseline mean win rate ≈ 0.42 (below 0.5, reflecting a falling January 2025 market). As outcomes are randomly flipped, WR rises monotonically toward ~0.58 - direction is inverted relative to the original paper (which had baseline WR > 0.5), but the ~0.16 gap still confirms outcomes are systematically non-random.
+- **Persistence Test:** Tested via one-sided Spearman correlation of win rate across consecutive months (Jan-Feb, Feb-Mar 2025), plus a 3-month pairwise correlation heatmap.
 - **Learning Test:** Median completed positions per user is only 4 (vs. hundreds on Probo), limiting statistical power. From rank ~50 onward, WR stabilizes and trends upward toward ~0.62, supporting a learning effect.
-- **OpTraS Skill Gradient:** For most of January, Consistent traders outscore Inconsistent traders (mean scores ~510–600 vs. ~465–560), with a late-month crossover attributable to small sample size.
+- **OpTraS Skill Gradient:** For most of January, Consistent traders outscore Inconsistent traders (mean scores ~510–600 vs. ~465-560), with a late-month crossover attributable to small sample size.
 
-**Overall:** Across all four tests, results are broadly consistent with a **skill-based interpretation** of FPI trading — though sparse position data, a sub-0.5 baseline win rate, and a single-month window for most tests introduce important caveats.
+**Overall:** Across all four tests, results are broadly consistent with a **skill-based interpretation** of FPI trading - though sparse position data, a sub-0.5 baseline win rate, and a single-month window for most tests introduce important caveats.
 
 ## References
 
 1. Bagchi, A., Pal, A., & Kumar, S. (2025). *Quantifying Skill on Opinion Trading Platforms*. Technical report.
-2. Steyvers, M., & Benjamin, A. S. (2019). The Joint Contribution of Participation and Performance to Learning Functions. *Behavior Research Methods*, 51, 1531–1543.
-3. Stafford, T., & Vaci, N. (2022). Maximizing the Potential of Digital Games for Understanding Skill Acquisition. *Current Directions in Psychological Science*, 31(1), 49–55.
+2. Steyvers, M., & Benjamin, A. S. (2019). The Joint Contribution of Participation and Performance to Learning Functions. *Behavior Research Methods*, 51, 1531-1543.
+3. Stafford, T., & Vaci, N. (2022). Maximizing the Potential of Digital Games for Understanding Skill Acquisition. *Current Directions in Psychological Science*, 31(1), 49-55.
